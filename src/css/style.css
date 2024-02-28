@@ -1,0 +1,66 @@
+:root {
+  --black-color: #000000;
+  --white: #fff;
+  --border-color: #474747;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.border_1 {
+  border: 0.1px solid #474747;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+section {
+  margin-top: 150px;
+}
+
+/* buttons */
+/* navbar */
+
+/* navbar */
+body {
+  /* height: 5000px; */
+  /* direction: rtl; */
+  /* background-color: var(--black-color); */
+}
+/* landPage */
+.landingpage .image img {
+  /* width: 500px; */
+  /* max-width: 100%; */
+}
+.landingpage .text {
+  /* color: var(--white); */
+}
+/* landPage */
+
+/* projects */
+.projects .container {
+}
+.projects {
+  color: var(--white);
+}
+.projects h1 {
+  font-size: 25px;
+}
+/* projects */
+
+/* 
+ npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch 
+ */

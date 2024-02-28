@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-light {
+  @apply text-lg cursor-pointer bg-white rounded text-black hover:bg-gray-200 transition-all duration-300 mt-3 px-3 py-2;
+}
+.bg-red {
+  @apply bg-[#A81F33];
+}
+/* 
+
+npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
+x
+ */

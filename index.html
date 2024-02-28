@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./src/css/output.css">
+    <link rel="stylesheet" href="./src/css/input.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>ElBayadere</title>
+</head>
+
+
+<body class="bg-black">
+    <!-- navbar -->
+    <nav class="relative  flex w-full flex-nowrap items-center justify-between py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start lg:py-4"
+        data-te-navbar-ref>
+        <div class="flex container flex-wrap items-center justify-between px-3">
+            <div class="">
+                <a href="./index.html"><img class="w-[150px] h-[90]" src="./src/image/logo.svg" alt="logo_img"></a>
+            </div>
+            <button
+                class="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                type="button" data-te-collapse-init data-te-target="#navbarSupportedContent9"
+                aria-controls="navbarSupportedContent9" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="[&>svg]:w-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+                        <path fill-rule="evenodd"
+                            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </span>
+            </button>
+            <div class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+                id="navbarSupportedContent9" data-te-collapse-item>
+                <ul class="list-style-none p-2 bg-white text-center mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row"
+                    data-te-navbar-nav-ref>
+                    <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1" data-te-nav-item-ref>
+                        <a class="text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./index.html" data-te-nav-link-ref>الرئيسية</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/about.html" data-te-nav-link-ref>عن الجمعية</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition
+                            ck/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/projects.html" data-te-nav-link-ref>المشاريع</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/news.html" data-te-nav-link-ref>اخبارنا</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/people.html" data-te-nav-link-ref>شركائنا</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/aboutus_2.html" data-te-nav-link-ref>من نحن</a>
+                    </li>
+                    <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                        <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+                            href="./src/pages/contactus.html" data-te-nav-link-ref>اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+    <!-- landPage -->
+    <div class="landingpage md:mt-[100px]">
+        <div class="container md:flex items-center justify-between">
+            <div class="image">
+                <img class="animate-pulse w-[500px] max-w-full" src="./src/image/img_1.svg" alt="landPage_img">
+            </div>
+
+            <div class="md:mt-0 mt-4">
+                <div class="text text-white">
+                    <h3 class="md:text-4xl lg:text-5xl xl:text-6xl text-2xl">
+                        جملة افتتاحية
+                    </h3>
+                    <p class="text-[17px] my-3 lg:text-[20px]">
+                        جمعية البيادر للتنمية والتطوير، العديد من الأنواع
+                        المتوفرة لنصوص لوريم إيبسوم.
+                    </p>
+                    <a href="./src/pages/contactus.html" class=" btn-light text-black">
+                        تفاصيل أكثر
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- landPage -->
+
+    <!-- projects -->
+    <div class="projects mt-[40px] ">
+        <div class="container py-4  border_1">
+            <div class="text my-4  md:flex items-center gap-3 justify-between ">
+
+                <h1 class="text-[30px] font-bold">المشاريع</h1>
+
+                <div class=" md:mt-0 mt-4">
+                    <div class="text">
+                        <p class="text-[20px]">مقدمة عن جمعية البيادر وهي جمعية تعمل على لوريم ايبسوم ،هنالك العديد من
+                            الأنواع المتوفرة
+                            لنصوص
+                            لوريم
+                            إيبسوم.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div class="card  border_1 gap-3 p-3 flex:col md:flex items-center justify-center">
+                    <div class="image">
+                        <img class="w-[350px] mx-auto max-w-full" src="./src/image/img_1.svg" alt="...">
+                    </div>
+                    <div class="text_card">
+                        <h1>التخطيط والبناء</h1>
+                        <p>وصف مشروع التخطيط والبناء وصف مشروع التخطيط والبناء</p>
+                    </div>
+                </div>
+                <div class="card border_1 gap-3 p-3 flex:col md:flex items-center justify-center">
+                    <div class="image">
+                        <img class="w-[350px] mx-auto max-w-full" src="./src/image/img_1.svg" alt="...">
+                    </div>
+                    <div class="text_card">
+                        <h1>التربية والتعليم</h1>
+                        <p>وصف مشروع التربية والتعليم وصف مشروع التربية والتعليم</p>
+                    </div>
+                </div>
+                <div class="card border_1 gap-3 p-3 flex:col md:flex items-center justify-center">
+                    <div class="image">
+                        <img class="w-[350px] mx-auto max-w-full" src="./src/image/img_1.svg" alt="...">
+                    </div>
+                    <div class="text_card">
+                        <h1>الاقتصاد</h1>
+                        <p>وصف مشروع/مشاريع الاقتصاد وصف مشروع/مشاريع الاقتصاد</p>
+                    </div>
+                </div>
+                <div class="card border_1 gap-3 p-3 flex:col md:flex items-center justify-center">
+                    <div class="image">
+                        <img class="w-[350px] mx-auto max-w-full" src="./src/image/img_1.svg" alt="...">
+                    </div>
+                    <div class="text_card">
+                        <h1>البييئة والطاقة</h1>
+                        <p>وصف مشروع البيئة والطاقة وصف مشروع البيئة والطاقة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+    <!-- eyr section -->
+    <div class="eye my-[40px] border_1 py-5">
+        <div class="container grid grid-col-1   md:grid-cols-2">
+            <div class="image  mb-5 md:mb-0">
+                <img class="w-[350px] mx-auto max-w-full" src="./src/image/eye.svg" alt="img_eye">
+            </div>
+            <div class="text text-white">
+                <h2 class="text-[25px]">الرؤية والاهداف</h2>
+                <p class="text-[16px] md:text-[18px]">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت
+                    دو أيوسمود
+                    تيمبور أنكايديديونتيوت
+                    لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد أكسير سيتاشن يللأمكو </p>
+            </div>
+        </div>
+    </div>
+    <!-- eye section -->
+
+    <!-- about_us -->
+    <div class="about_us">
+        <div class="container">
+            <div class="text md:flex items-center justify-between text-white">
+                <h1 class="text-[30px] w-1/2 font-bold">من نحن</h1>
+                <div class="text md:w-1/2">
+                    <p class="text-[20px]">ملوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليا,كونسيكتيتور
+                        أدايبا يسكينج ,كونسيكتيتور أدايبا يسكينج أليا,كونسيكتيتور أدايبا يسكينج أليا,سيت دو
+                </div>
+            </div>
+            <div class="image mt-5">
+                <img class="w-full  max-w-full" src="./src/image/member.svg" alt="about_us">
+            </div>
+        </div>
+    </div>
+    <!-- about_us -->
+    <!-- managers -->
+    <div class="managers mt-5">
+        <div class="container grid grid-cols-1 place-items-center   md:grid-cols-3 ">
+            <h1 class="text-[25px] text-white">المديرون:</h1>
+            <div class="card">
+                <h3 class="text-[22px] text-white">لوريم ايبسوم دولار</h3>
+                <span class="text-gray-400">لوريم ايبسو</span>
+                <p class="text-white">لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم</p>
+            </div>
+            <div class="card">
+                <h3 class="text-[22px] text-white">لوريم ايبسوم دولار</h3>
+                <span class="text-gray-400">لوريم ايبسو</span>
+                <p class="text-white">لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم</p>
+            </div>
+        </div>
+    </div>
+    <!-- managers -->
+    <div class="team mt-[20px]">
+        <div class="container mx-auto grid gap-5  place-content-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+            <div class="card mx-auto">
+                <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                <span class="text-gray-400">لوريم ايبسو</span>
+                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae assumenda
+                    itaque mollitia.</p>
+            </div>
+            <div class="card mx-auto">
+                <div class="card">
+                    <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                    <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                    <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                    <span class="text-gray-400">لوريم ايبسو</span>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                        nulla optio repellat corrupti itaque mollitia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card">
+                    <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                    <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                    <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                    <span class="text-gray-400">لوريم ايبسو</span>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                        nulla optio repellat corrupti itaque mollitia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card">
+                    <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                    <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                    <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                    <span class="text-gray-400">لوريم ايبسو</span>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                        nulla optio repellat corrupti itaque mollitia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- managers -->
+    <!-- memmber -->
+    <div class="memmber mt-[50px]">
+        <div class="container">
+            <h2 class="text-white mb-[20px] text-[25px]">المؤسسون:</h2>
+            <div class="cont grid gap-5  grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="card">
+                    <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                    <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                    <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                        assumenda
+                        itaque mollitia.</p>
+                </div>
+                <div class="card">
+                    <div class="card">
+                        <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                        <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                        <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                            nulla optio repellat corrupti itaque mollitia.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card">
+                        <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                        <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                        <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                            nulla optio repellat corrupti itaque mollitia.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card">
+                        <!-- <h2 class="text-white text-[25px]">الفريق:</h2> -->
+                        <img class="w-[250px] max-w-full" src="./src/image/person.svg" alt="persone_img">
+                        <h2 class="text-white text-[25px]">لوريم ايبسوم دولار</h2>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vel quae
+                            nulla optio repellat corrupti itaque mollitia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- memmber -->
+    <!-- articele -->
+    <div class="articele mt-[30px] bg-red p-[25px]">
+        <div class="container">
+            <h2 class="text-[25px] text-white font-bold">اخر مقالات:</h2>
+            <div class="cont md:flex items-center justify-between gap-5">
+                <div class="iamge">
+                    <img class="w-full max-w-full" src="./src/image/footer.svg" alt="">
+                </div>
+                <div class="text text-white">
+                    <h2 class="text-[22px] font-bold">دولار سيت أميت </h2>
+                    <span class="text-[15px]">13-12-2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam magni sed, dignissimos beatae
+                        blanditiis a.</p>
+                    <div class="btn-light w-fit">
+                        تفاصيل أكثر
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- articele -->
+    <footer class="footer mt-5">
+        <div class="container grid grid-cols-1 justify-items-center	 md:grid-cols-3">
+            <div class="logo mt-5 mx-auto">
+                <img src="./src/image/logo.svg" alt="logo_img">
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="image mt-5 mx-auto">
+                <img src="./src/image/footer_main.svg" class="w-[250px] max-w-full" alt="footer_img">
+            </div>
+            <div class="links text-white mt-5 mx-auto">
+                <ul class="list-none">
+                    <li><a class="no-underline" href="#">Link</a></li>
+                    <li><a class="no-underline" href="#">Link</a></li>
+                    <li><a class="no-underline" href="#">Link</a></li>
+                    <li><a class="no-underline" href="#">Link</a></li>
+                    <li><a class="no-underline" href="#">Link</a></li>
+                    <li><a class="no-underline" href="#">Link</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <!-- script -->
+    <!-- tailwind elements lib -->
+    <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
